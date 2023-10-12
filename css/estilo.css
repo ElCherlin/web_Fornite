@@ -1,0 +1,411 @@
+:root{
+    --morado: #5a2c56;
+    --morado2:#ecedf1;
+    --fuenteheading:'PT Sans',sans-serif;
+--fuenteparrafos:'Open Sans',sans-serif;
+    }
+    
+
+    html{
+        
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+    }
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    body{    
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+/* background-image: linear-gradient(to left, var(--morado) 0%, var(--morado2) 100% );*/
+background-color:black;
+margin-top: 0%; 
+padding-top: 0%;
+    }
+    h1{
+    
+        font-size: 3.8rem;
+        color:white;
+    }
+    h2{
+    
+        font-size: 3.5rem;
+        color: white;
+        text-align: center;
+    }
+    h3{
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+
+    a{
+
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        font-family: var(--fuenteheading);
+        
+        }
+        @media (min-width: 768px) {
+
+            .barra{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+        }
+        p{
+            color: white    ;
+        }
+
+
+.header{
+
+    background-image: url(../img/banner3.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 17rem;
+    margin-top:0rem;
+    background-position: center center;
+}
+@media (min-width: 768px) {
+    .header{
+
+        background-image: url(../img/banner3.png);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70rem;
+        margin-top:0rem;
+        background-position: center center;
+    }
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.5rem;
+    
+    margin-bottom: 5rem;
+    align-items: center;
+}
+    
+
+@media (min-width: 768px) {
+
+    .navegacion{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+        gap: 2rem;
+        font-family:var(--fuenteheading) ;
+
+    }
+}
+
+footer{
+    color: white;
+}
+.img_logo{
+    margin-top: 0rem;
+        max-width: 5rem; 
+        border-radius: 5%;
+        background-position: center center;
+    }
+@media (min-width: 768px) {
+    .img_logo{
+        margin-top: 5rem;
+            max-width: 20rem; 
+            border-radius: 5%;
+        }
+    
+}
+
+
+
+
+.ran{
+    
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    gap: 2rem;
+    font-size: 1.5rem;
+    }
+@media (min-width: 768px) {
+    .ran{
+    
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 2rem;
+        font-size: 2.5rem;
+        }
+}
+
+.navegacion a:hover{
+
+    color:var(--morado)
+}
+.rango{
+    padding-top: 0%;
+        max-width: 35rem;
+        border-radius: 1%;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+@media (min-width: 768px) {
+    .rango{
+        padding-top: 0%;
+            max-width: 70rem;
+            border-radius: 1%;
+        }
+}
+.no_padding{
+
+    padding-top: 9%;
+    margin-top: 0%;
+}
+@media (min-width: 768px) {
+    .no_padding{
+
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+}
+.redes{
+    
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 2rem   ;
+    text-align: center;
+    }
+
+
+    @media (min-width: 768px ) {
+        .redes{
+    
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            gap: 2rem;
+            text-align: center;
+            }
+    }
+
+    .img_r{
+
+        max-width: 5rem;
+    }
+    @media (min-width: 768px) {
+        .img_r{
+
+            max-width: 10rem;
+        }
+    }
+    .red{
+
+        text-align: center;
+    }
+
+    .campeones{
+
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 2rem;
+
+    }
+    .compañeros{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+    @media (min-width: 768px) {
+        .compañeros{
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            gap: 2rem;
+            font-size: 2.5rem;
+        }
+    }
+    .campeones{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+    @media (min-width: 768px) {
+        .campeones{
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            gap: 2rem;
+            font-size: 2.5rem;
+        }
+    }
+    .com{
+
+    max-height: 50rem;
+
+    }
+    .cam{
+
+        max-height: 48.5rem;
+    
+        }
+.fot{
+
+    background-image: url(../img/bg.jpg);
+    height: 25rem;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+@media (min-width: 768px) {
+    .fot{
+
+        background-image: url(../img/bg.jpg);
+        height: 40rem;
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+}
+.img_fot{
+    padding: 1rem;
+    max-width: 15rem;
+    border-radius: 10%;
+
+}
+@media (min-width: 768px) {
+    
+    .img_fot{
+        padding: 1rem;
+        max-width: 30rem;
+        border-radius: 10%;
+    
+    }
+}
+.texto{
+
+    text-align: center;
+    font-size: 2rem;
+}
+.center{
+
+    text-align: center;
+
+}
+.formulario label{
+
+    color: white;
+  
+}
+
+
+@media (min-width: 768px ) {
+.formulario{
+
+   
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 40%;
+
+
+}
+}
+.formulario{
+
+   
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+ 
+   
+
+
+}
+
+.br{
+
+    border-radius: 1rem;
+   
+}
+.campo{
+
+    margin-top: 1rem;
+ 
+}
+
+  
+    @media (min-width: 768px ) {
+    .campo input{
+
+        border-radius: .5rem;
+        padding: 1rem;
+        border: none;
+    }
+    }
+   
+    @media (min-width: 769px ) {
+    .campo textarea{
+
+        border-radius: .5rem;
+        padding: 1rem;
+        border: none;
+        max-width: 100rem;
+    }
+    }
+    @media (max-width: 768px ) {
+    .campo textarea{
+
+        border-radius: .5rem;
+        padding: 1rem;
+        border: none;
+        max-width: 18rem;
+    }
+}
+
+
+@media (min-width: 768px ) {
+    .form h1{
+
+        text-align: center;
+    }
+}
+@media (min-width: 769px ) {
+.boton {
+    background-color: grey;
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    width: 30%;
+    text-align: center;
+    border: none;
+}
+}
+
+@media (max-width: 768px ) {
+.boton {
+    background-color: grey;
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    width: 55%;
+    text-align: center;
+    border: none;
+}}
